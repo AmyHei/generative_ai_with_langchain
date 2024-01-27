@@ -18,7 +18,9 @@ from langchain.schema import BaseRetriever, Document
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.vectorstores import DocArrayInMemorySearch
 
-from chat_with_retrieval.utils import MEMORY, load_document
+from utils import MEMORY, load_document
+
+# from chat_with_retrieval.utils import MEMORY, load_document
 from config import set_environment
 
 logging.basicConfig(encoding="utf-8", level=logging.INFO)
